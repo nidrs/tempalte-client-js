@@ -16,6 +16,7 @@ export default defineConfig({
       sourcemap: true,
     },
   ],
+  external: ["@nidrs/openapi-client-js"],
   plugins: [
     nodeResolve(),
     typescript({
