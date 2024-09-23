@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "nidrs openapi client js helper tools.",
   "author": "Lydanne <1829913225@qq.com>",
-  "homepage": "https://github.com/nidrs/nidrs-cli/helpers/api-client#readme",
+  "homepage": "https://github.com/nidrs/nidrs-cli/templates/api-client#readme",
   "license": "MIT",
   "main": "lib/api-client.cjs.js",
   "module": "lib/api-client.esm.js",
@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/nidrs/nidrs-cli/issues"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@nidrs/openapi-client-js": "*"
   },
   "devDependencies": {
